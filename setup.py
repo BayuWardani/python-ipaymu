@@ -3,8 +3,7 @@ import setuptools
 
 setuptools.setup(
      name='python-ipaymu',  
-     version='0.1',
-     scripts=['ipaymu'] ,
+     version='0.1.1',
      author="Bayu Wardani",
      author_email="bayuwardani51@gmail.com",
      description="Integrasi iPaymu",
@@ -13,6 +12,14 @@ setuptools.setup(
      url="https://github.com/BayuWardani/python-ipaymu.git",
      packages=setuptools.find_packages(),
      classifiers=[
-         "iPaymu",
+         "Development Status :: 4 - Beta",
+         "Framework :: Django :: 2.2",
+         "Framework :: Django :: 1.11",
+         "Framework :: Flask",
+         "Natural Language :: Indonesian",
+         "Operating System :: Microsoft :: Windows",
+         "Operating System :: Unix","Operating System :: MacOS",
+         "Programming Language :: Python",
+         "Programming Language :: Python :: 3 :: Only"
      ],
  )

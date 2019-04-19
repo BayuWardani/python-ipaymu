@@ -3,7 +3,7 @@ import setuptools
 
 setuptools.setup(
      name='python-ipaymu',  
-     version='0.1.1',
+     version='0.1.3.1',
      author="Bayu Wardani",
      author_email="bayuwardani51@gmail.com",
      description="Integrasi iPaymu",

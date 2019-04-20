@@ -1,5 +1,6 @@
 # Python iPaymu
 [![PyPI version](https://img.shields.io/pypi/v/python-ipaymu.svg)](https://pypi.org/project/python-ipaymu/)
+[![PyPI version](https://img.shields.io/pypi/dm/python-ipaymu.svg)](https://pypi.org/project/python-ipaymu/)
 
 Koneksi api iPaymu dengan python
 
@@ -30,7 +31,7 @@ ipaymu = iPaymu(api_key)
 
 resp = ipaymu.cek_transaksi(id_transaksi)
 
-result = resp.read()
+result = resp.status
 
 print (result)
 ```

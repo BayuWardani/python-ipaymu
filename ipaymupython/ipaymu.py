@@ -41,7 +41,7 @@ class iPaymu:
 			"action":self.PAYMENT,
 			"format":self.return_format
 		}
-		new_obj = obj.update(data)
+		new_obj = {**obj,**data}
 
 		try:
 			obj_parse = urlencode(new_obj)
